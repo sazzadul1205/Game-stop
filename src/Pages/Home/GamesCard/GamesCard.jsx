@@ -1,4 +1,4 @@
-import AOS from 'aos'
+import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
@@ -18,8 +18,8 @@ const GamesCard = ({ game }) => {
                         <h1 className="text-3xl md:text-5xl font-bold">{name}</h1>
                         <p className="py-6">{description}</p>
                         <div className="flex items-center gap-5"> 
-                            <p className="py-6">Price: {price}$</p>
-                            <button className="btn btn-primary">Get Started</button>
+                            <p className="py-6">Price: {price === 0 ? "Free" : `$${price}`}</p>
+                            <button className="btn btn-primary">Show Details</button>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,60 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Laptop Model X",
+            "price": 899.99,
+            "rating": 4.5,
+            "companyName": "TechCorp",
+            "image": "https://i.ibb.co/M7WxThS/Laptop.png"
+        },
+        {
+            "id": 2,
+            "name": "Gaming PC Pro",
+            "price": 1499.99,
+            "rating": 4.7,
+            "companyName": "GameMaster",
+            "image": "https://i.ibb.co/wy3vTgF/PC.png"
+        },
+        {
+            "id": 3,
+            "name": "Ultra-Slim Monitor",
+            "price": 249.99,
+            "rating": 4.8,
+            "companyName": "ScreenTech",
+            "image": "https://i.ibb.co/gF59P8S/Monitor.png"
+        },
+        {
+            "id": 4,
+            "name": "Wireless Keyboard and Mouse Combo",
+            "price": 49.99,
+            "rating": 4.2,
+            "companyName": "Peripherals Inc.",
+            "image": "https://i.ibb.co/WHwwcVV/Keyboard.png"
+        },
+        {
+            "id": 5,
+            "name": "External SSD Drive 1TB",
+            "price": 129.99,
+            "rating": 4.6,
+            "companyName": "StorageTech",
+            "image": "https://i.ibb.co/FD3WQkZ/SSD.png"
+        },
+        {
+            "id": 6,
+            "name": "Smart Wi-Fi Router",
+            "price": 79.99,
+            "rating": 4.4,
+            "companyName": "NetConnect",
+            "image": "https://i.ibb.co/s251b4c/Router.png"
+        },
+        {
+            "id": 7,
+            "name": "Portable External Battery Pack",
+            "price": 39.99,
+            "rating": 4.3,
+            "companyName": "PowerUp",
+            "image": "https://i.ibb.co/B2FPDMk/Battery.png"
+        }
+    ]
+}
