@@ -1,0 +1,154 @@
+{
+    "games": [
+        {
+            "id": 1,
+            "name": "Assassin's Creed",
+            "price": 49.99,
+            "description": "Assassin's Creed is an action-adventure stealth game series that takes players on a historical journey as assassins in different time periods. It features stealthy gameplay, parkour-style movement, and engaging narratives. Explore richly detailed historical settings, uncover hidden conspiracies, and master the art of assassination. Immerse yourself in the thrilling world of Assassins and Templars.",
+            "releaseDate": "November 13, 2007",
+            "downloads": 150,
+            "averagePlayTime": "30 hours",
+            "rating": 4.5,
+            "genre": "Action-Adventure",
+            "platforms": [
+                "PlayStation",
+                "Xbox",
+                "PC"
+            ],
+            "image": "https://i.ibb.co/pLtY8Tf/Assassin-s-Creed.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Minecraft",
+            "price": 26.95,
+            "description": "Minecraft is a sandbox game that allows players to build and explore blocky, procedurally generated worlds. Players can mine resources, craft items, and engage in creative or survival gameplay. With endless possibilities for creativity and exploration, Minecraft has become a global phenomenon. Create your own world, survive the night, and embark on epic adventures.",
+            "releaseDate": "November 18, 2011",
+            "downloads": 2000,
+            "averagePlayTime": "100+ hours",
+            "rating": 4.7,
+            "genre": "Sandbox",
+            "platforms": [
+                "PlayStation",
+                "Xbox",
+                "PC",
+                "Mobile"
+            ],
+            "image": "https://i.ibb.co/H7P10hj/Minecraft.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Genshin Impact",
+            "price": 0.00,
+            "description": "Genshin Impact is an open-world action RPG known for its stunning visuals. Players explore the fantasy realm of Teyvat, wield elemental powers, and embark on an epic quest to find their lost sibling. Immerse yourself in a beautifully crafted world filled with mysteries and challenges. Discover your true potential as you unravel the secrets of Teyvat.",
+            "releaseDate": "September 28, 2020",
+            "downloads": 500,
+            "averagePlayTime": "60 hours",
+            "rating": 4.6,
+            "genre": "Action RPG",
+            "platforms": [
+                "PlayStation",
+                "PC",
+                "Mobile"
+            ],
+            "image": "https://i.ibb.co/ZfM89qz/Genshin-Impact.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Factorio",
+            "price": 30.00,
+            "description": "Factorio is a real-time strategy game focused on automation and resource management. Players build intricate factories to produce items, manage supply chains, and optimize industrial processes. Dive into the world of engineering, logistics, and production. Satisfy your inner engineer and conquer the world of automation.",
+            "releaseDate": "August 14, 2020",
+            "downloads": 50,
+            "averagePlayTime": "40 hours",
+            "rating": 4.8,
+            "genre": "Strategy",
+            "platforms": [
+                "PC"
+            ],
+            "image": "https://i.ibb.co/qnpfPhL/Factorio.jpg"
+        },
+        {
+            "id": 5,
+            "name": "League of Legends",
+            "price": 0.00,
+            "description": "League of Legends is a popular multiplayer online battle arena (MOBA) game where players form teams to compete in fast-paced, tactical battles using a roster of diverse champions, each with unique abilities. Join the world's largest esports community and engage in intense team-based competition. Master your favorite champion and dominate the Fields of Justice.",
+            "releaseDate": "October 27, 2009",
+            "downloads": 600,
+            "averagePlayTime": "40 minutes per match",
+            "rating": 4.2,
+            "genre": "MOBA",
+            "platforms": [
+                "PC"
+            ],
+            "image": "https://i.ibb.co/rvpTtVM/League-of-Legends.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Civilization VI",
+            "price": 59.99,
+            "description": "Civilization VI is a turn-based strategy game where players build and expand their own civilization throughout history. They can wage wars, form alliances, and lead their people to victory through diplomacy, science, or military power. Rewrite history and shape the destiny of your civilization. Rule the world and leave your mark on history.",
+            "releaseDate": "October 21, 2016",
+            "downloads": 100,
+            "averagePlayTime": "20+ hours",
+            "rating": 4.6,
+            "genre": "Strategy",
+            "platforms": [
+                "PC",
+                "Nintendo Switch",
+                "PlayStation",
+                "Xbox"
+            ],
+            "image": "https://i.ibb.co/pLtY8Tf/Assassin-s-Creed.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Horizon Zero Dawn",
+            "price": 49.99,
+            "description": "Horizon Zero Dawn is an action RPG set in a post-apocalyptic world where players take on the role of Aloy, a hunter, and archer. She explores the open world, battles robotic creatures, and uncovers the mysteries of her world. Embark on a breathtaking adventure in a world reclaimed by nature. Uncover the secrets of the ancient past and the future of humanity.",
+            "releaseDate": "February 28, 2017",
+            "downloads": 300,
+            "averagePlayTime": "40 hours",
+            "rating": 4.7,
+            "genre": "Action RPG",
+            "platforms": [
+                "PlayStation",
+                "PC"
+            ],
+            "image": "https://i.ibb.co/RD1DNdZ/Horizon-Zero-Dawn.jpg"
+        },
+        {
+            "id": 8,
+            "name": "The Witcher 3: Wild Hunt",
+            "price": 39.99,
+            "description": "The Witcher 3: Wild Hunt is an open-world action RPG where players assume the role of Geralt of Rivia, a monster hunter. They explore a vast, detailed world, engage in complex stories, and make choices that impact the game's outcome. Immerse yourself in a dark fantasy world filled with morally ambiguous decisions, deadly monsters, and political intrigue.",
+            "releaseDate": "May 19, 2015",
+            "downloads": 400,
+            "averagePlayTime": "70+ hours",
+            "rating": 4.9,
+            "genre": "Action RPG",
+            "platforms": [
+                "PlayStation",
+                "Xbox",
+                "PC"
+            ],
+            "image": "https://i.ibb.co/Ln8CgcC/The-Witcher-3-Wild-Hunt.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Red Dead Redemption 2",
+            "price": 59.99,
+            "description": "Red Dead Redemption 2 is an open-world action-adventure game set in the American Wild West. Players follow Arthur Morgan, an outlaw, as he navigates a richly detailed world filled with stories, missions, and activities. Immerse yourself in the era of outlaws and gunslingers. Experience the harsh beauty of the Wild West and the struggles of survival.",
+            "releaseDate": "October 26, 2018",
+            "downloads": 250,
+            "averagePlayTime": "60+ hours",
+            "rating": 4.8,
+            "genre": "Action-Adventure",
+            "platforms": [
+                "PlayStation",
+                "Xbox",
+                "PC"
+            ],
+            "image": "https://i.ibb.co/9bLg9yj/Red-Dead-Redemption-2.jpg"
+        }
+    ]
+}
