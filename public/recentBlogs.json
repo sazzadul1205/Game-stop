@@ -1,0 +1,44 @@
+{
+    "recentBlogs": [
+        {
+            "id": 1,
+            "title": "The Rise of eSports: A New Era in Gaming",
+            "author": "John Doe",
+            "date": "October 15, 2023",
+            "description": "Explore the booming world of eSports and how it's reshaping the gaming industry.",
+            "image": "https://i.ibb.co/j4bZtTf/blog4.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Gaming Tips and Tricks: Mastering Your Favorite Games",
+            "author": "Jane Smith",
+            "date": "October 10, 2023",
+            "description": "Learn expert tips and tricks to level up your gaming skills in popular titles.",
+            "image": "https://i.ibb.co/MnY56FK/blog-5.jpg"
+        },
+        {
+            "id": 3,
+            "title": "The Impact of Virtual Reality on Gaming",
+            "author": "Michael Johnson",
+            "date": "October 5, 2023",
+            "description": "Discover how virtual reality is revolutionizing the gaming experience and its potential future.",
+            "image": "https://i.ibb.co/VY7pfjG/blogs1.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Top 10 Must-Play Indie Games of 2023",
+            "author": "Sarah Lee",
+            "date": "September 30, 2023",
+            "description": "Explore the indie gaming scene and discover the best indie games you shouldn't miss.",
+            "image": "https://i.ibb.co/58pw8Mf/blog2.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Gaming Hardware: Choosing the Right Setup for You",
+            "author": "David Miller",
+            "date": "September 25, 2023",
+            "description": "Get tips on selecting the ideal gaming hardware and peripherals for your gaming rig.",
+            "image": "https://i.ibb.co/8MSXMpn/blog3.jpg"
+        }
+    ]
+}

@@ -66,8 +66,6 @@ const Home = () => {
             <div className="my-5 mx-10">
                 <h2 className="text-center text-4xl font-extrabold my-5">Top Brands. Take Your Pick.</h2>
                 <Contact></Contact>
-
-
             </div>
         </div>
     );
