@@ -1,13 +1,28 @@
 import { Link, NavLink } from "react-router-dom";
 import userPic from '../../../assets/user.png'
+import { useContext } from "react";
+import { AuthContext } from "../../../Providers/AuthProvider";
 
 const Navbar = () => {
+    const { user, logOut } = useContext(AuthContext);
 
-    const links = <>
-        <li className="text-xl"><NavLink to={'/'}>Home</NavLink></li>
-        <li className="text-xl"><NavLink to={'/blogs'}>Blogs</NavLink></li>
-        <li className="text-xl"><NavLink to={'/game'}>Games</NavLink></li>
-    </>
+    const handleSignOut = () => {
+        logOut()
+            .then(() => {
+                console.log("User signed out successfully.");
+            })
+            .catch(error => {
+                console.error("Error signing out:", error);
+            });
+    };
+
+    const links = (
+        <>
+            <li className="text-xl"><NavLink to={'/'}>Home</NavLink></li>
+            <li className="text-xl"><NavLink to={'/blogs'}>Blogs</NavLink></li>
+            <li className="text-xl"><NavLink to={'/game'}>Games</NavLink></li>
+        </>
+    );
 
     return (
         <div>
@@ -34,13 +49,23 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end flex gap-5">
-                    <h2>name</h2>
-                    <div className="avatar">
-                        <div className="w-12 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                            <img src={userPic} alt="User" />
-                        </div>
-                    </div>
-                    <Link to={'/login'}><button className="btn btn-neutral">LogIn</button></Link>
+                    {user ? (
+                        <>
+                            <div className="avatar">
+                                <div className="w-12 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                                    <img src={user.photoURL || userPic} alt="User" />
+                                </div>
+                            </div>
+                            <h2>{user.displayName}</h2>
+                            <button className="btn btn-neutral" onClick={handleSignOut}>
+                                Log Out
+                            </button>
+                        </>
+                    ) : (
+                        <Link to="/login">
+                            <button className="btn btn-neutral">Log In</button>
+                        </Link>
+                    )}
                 </div>
             </div>
         </div>
@@ -48,4 +73,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
