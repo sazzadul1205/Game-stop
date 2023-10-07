@@ -21,15 +21,19 @@ const Blogs = () => {
     }, []);
 
     return (
-        <div className="flex mx-10">
-            <div className="w-1/4">
+        <div className="flex flex-col md:flex-col-reverse lg:flex-row mx-5 lg:mx-20">
+            <div className="w-full md:ml-36 md:w-1/4 mb-8 md:mb-0 order-2 md:order-1"> 
                 {
-                    recentBlogs.map(recentBlog => (<RecentBlogs key={recentBlog.id} recentBlogs={recentBlog}></RecentBlogs>))
+                    recentBlogs.map(recentBlog => (
+                        <RecentBlogs key={recentBlog.id} recentBlogs={recentBlog}></RecentBlogs>
+                    ))
                 }
             </div>
-            <div className="w-3/4">
+            <div className="w-full mx-auto md:w-3/4 order-1 md:order-2">
                 {
-                    blogs.map(blog => (<Blog key={blog.id} blog={blog}></Blog>))
+                    blogs.map(blog => (
+                        <Blog key={blog.id} blog={blog}></Blog>
+                    ))
                 }
             </div>
         </div>

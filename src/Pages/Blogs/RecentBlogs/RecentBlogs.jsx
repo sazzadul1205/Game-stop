@@ -1,10 +1,10 @@
 
 const RecentBlogs = ({ recentBlogs }) => {
-    const { title, author, date, description, image } = recentBlogs;
+    const { title, author, date, image } = recentBlogs;
     return (
         <div>
             <div className="w-1/4 my-4">
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card w-72 md:w-96 bg-base-100 shadow-xl">
                     <figure><img src={image} /></figure>
                     <div className="card-body">
                         <h2 className="card-title text-xl">

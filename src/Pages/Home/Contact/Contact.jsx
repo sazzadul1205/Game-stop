@@ -24,11 +24,11 @@ const Contact = () => {
             </div>
             <div className="md:w-1/2 p-4">
                 <h2 className="text-2xl font-bold text-blue-600 mb-3">Latest News</h2>
-                <h1 className="text-xl font-semibold text-purple-200" >Next-Gen Consoles: </h1>
+                <h1 className="text-xl font-semibold text-black mt-2" >Next-Gen Consoles: </h1>
                 <p>The release of next-generation gaming consoles like the PlayStation 5 and Xbox Series X/S brought about a new era of gaming with improved graphics, faster load times, and innovative features.</p>
-                <h1 className="text-xl font-semibold text-purple-200 mt-2" >Rise of Battle Royale Games: </h1>
+                <h1 className="text-xl font-semibold text-black mt-2" >Rise of Battle Royale Games: </h1>
                 <p>Games like "Fortnite," "Apex Legends," and "Warzone" continued to dominate the battle royale genre, attracting millions of players worldwide.</p>
-                <h1 className="text-xl font-semibold text-purple-200 mt-2" >Indie Game Success </h1>
+                <h1 className="text-xl font-semibold text-black mt-2" >Indie Game Success </h1>
                 <p> Indie games such as "Hades," "Among Us," and "Valheim" gained widespread popularity, showcasing the potential for small studios to create hit titles.</p>
             </div>
         </div>
