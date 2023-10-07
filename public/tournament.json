@@ -1,0 +1,70 @@
+{
+    "tournaments": [
+        {
+            "id": 1,
+            "date": "2023-04-15",
+            "name": "Tournament 1",
+            "prizePool": "$10,000",
+            "team1Name": "Team A",
+            "team2Name": "Team B",
+            "team1Image": "https://i.ibb.co/F580cz9/teamA.png",
+            "team2Image": "https://i.ibb.co/MRKYkQh/teamB.png",
+            "streamingLink": "https://twitch.tv/tournament1stream"
+        },
+        {
+            "id": 2,
+            "date": "2023-04-22",
+            "name": "Tournament 2",
+            "prizePool": "$15,000",
+            "team1Name": "Team X",
+            "team2Name": "Team Y",
+            "team1Image": "https://i.ibb.co/G0F3X8J/teamX.png",
+            "team2Image": "https://i.ibb.co/Zdjg1gR/teamY.png",
+            "streamingLink": "https://twitch.tv/tournament2stream"
+        },
+        {
+            "id": 3,
+            "date": "2023-05-05",
+            "name": "Tournament 3",
+            "prizePool": "$12,500",
+            "team1Name": "Team P",
+            "team2Name": "Team Q",
+            "team1Image": "https://i.ibb.co/F580cz9/teamA.png",
+            "team2Image": "https://i.ibb.co/MRKYkQh/teamB.png",
+            "streamingLink": "https://twitch.tv/tournament3stream"
+        },
+        {
+            "id": 4,
+            "date": "2023-05-12",
+            "name": "Tournament 4",
+            "prizePool": "$8,000",
+            "team1Name": "Team M",
+            "team2Name": "Team N",
+            "team1Image": "https://i.ibb.co/G0F3X8J/teamX.png",
+            "team2Image": "https://i.ibb.co/Zdjg1gR/teamY.png",
+            "streamingLink": "https://twitch.tv/tournament4stream"
+        },
+        {
+            "id": 5,
+            "date": "2023-05-20",
+            "name": "Tournament 5",
+            "prizePool": "$20,000",
+            "team1Name": "Team Z",
+            "team2Name": "Team W",
+            "team1Image": "https://i.ibb.co/F580cz9/teamA.png",
+            "team2Image": "https://i.ibb.co/MRKYkQh/teamB.png",
+            "streamingLink": "https://twitch.tv/tournament5stream"
+        },
+        {
+            "id": 6,
+            "date": "2023-05-28",
+            "name": "Tournament 6",
+            "prizePool": "$9,500",
+            "team1Name": "Team R",
+            "team2Name": "Team S",
+            "team1Image": "https://i.ibb.co/G0F3X8J/teamX.png",
+            "team2Image": "https://i.ibb.co/Zdjg1gR/teamY.png",
+            "streamingLink": "https://twitch.tv/tournament6stream"
+        }
+    ]
+}
